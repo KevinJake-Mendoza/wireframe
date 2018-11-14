@@ -14,7 +14,7 @@
 <body>
 	<nav class="nav">
 		<!-- <div class="logo"></div> -->
-		<img src="assets/images/social.png" class="logo">
+		<img src="assets/images/logo.png" class="logo">
 		<ul>
 			<li><a href="#home">Home</a></li>
 			<li><a href="#about">Register</a></li>
@@ -30,6 +30,18 @@
 
 	<main class="main" >
 		<section class="banner" id="home">
+			<div class="enter">
+				<div class="li">
+					<label>Username: <input class="un" type="text" name="un"></label>
+					<label>Password: <input class="pw" type="password" name="pw"></label>
+					<button class="login">LogIn</button>
+				</div>
+				<div class="forget">
+					<a  href="#"><small> Forget Password?</small></a>
+				</div>
+			</div>
+	
+
 			<div class="box">
 
 				<h1>SOCIAL MEDIA</h1>
@@ -38,26 +50,28 @@
 			</div>
 		</section><!--  end of banner -->
 
-		<section class="about" id="about">
+		<a href="#home" id="back">back to top</a>
+
+		<section class="register" id="about">
 			
 			<div >
 				<h2>Register</h2>
-				<form class="register">
-						<div>
-							<label for="name">Username: </label> 
-							<input id="name" type="text" class="form-control">
-						</div>
+				<form>
+						
+						<label for="name">Username: </label> 
+						<input id="name" type="text" class="form-control">
+						
 
-						<div>
-							<h3 class="notif"> Make sure to enter a wholesome username</h3>
+						<div class="notif">
+							<h3 "> Make sure to enter a wholesome username</h3>
 						</div>
-						<div>
-							<label for="email"> Email: </label>
-							<input id="email" type="text" class="form-control">
-						</div>
+						
+						<label for="email"> Email: </label>
+						<input id="email" type="text" class="form-control">
+						
 
-						<div>
-							<h3 class="notif"> Input a Valid Email</h3>
+						<div class="notif1">
+							<h3 > Input a Valid Email</h3>
 						</div>
 
 							<label for="pass"> Password: </label>
