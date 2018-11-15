@@ -380,6 +380,11 @@ div[class*="notif"]{
 	background-color: rgba(87, 87, 87, .50);
 }
 
+#b2{
+	visibility: hidden;
+	display: none;
+}
+
 
 
 
@@ -455,7 +460,7 @@ div[class*="notif"]{
 
 /*Mobile Style*/
 
-@media only screen and (max-width:400px) {
+@media only screen and (max-width:450px) {
 	.nav{
 		display: none;
 
@@ -474,7 +479,7 @@ div[class*="notif"]{
 		width: 80%;
 		position: absolute;
 		bottom: 5%;
-		height: 50%;
+		height: 40%;
 		padding: 15px;
 	}
 
@@ -524,6 +529,11 @@ div[class*="notif"]{
 		font-size: 12px;
 	}
 
+	#b1{
+		visibility: hidden;
+		display: none;
+	}
+
 
 
 
@@ -541,7 +551,7 @@ div[class*="notif"]{
 
 
 
-@media only screen and (min-width:401px) and (max-width: 960px){
+@media only screen and (min-width:451px) and (max-width: 960px){
 	
 	.nav{
 		display: none;
