@@ -534,6 +534,14 @@ div[class*="notif"]{
 		display: none;
 	}
 
+	.banner, 
+	.register, 
+	.services,
+	.projects,
+	.gallery{
+		background-attachment: scroll;
+	}
+
 
 
 
